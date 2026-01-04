@@ -15,7 +15,8 @@ TARGETS = high_and_low \
 	order_words \
 	decode_roman \
 	find_date \
-	run_length_encoding
+	run_length_encoding \
+	letters_to_numbers
 
 .PHONY: all clean reformat run vrun
 
