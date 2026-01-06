@@ -22,7 +22,8 @@ TARGETS = high_and_low \
 	human_readable_time \
 	format_duration \
 	is_valid_ISBN_10 \
-	scramble
+	scramble \
+	alphabet_position
 
 .PHONY: all clean reformat run vrun
 
