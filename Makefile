@@ -23,7 +23,8 @@ TARGETS = high_and_low \
 	format_duration \
 	is_valid_ISBN_10 \
 	scramble \
-	alphabet_position
+	alphabet_position \
+	sum_number_strings
 
 .PHONY: all clean reformat run vrun
 
