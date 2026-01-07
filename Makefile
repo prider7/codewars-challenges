@@ -24,7 +24,8 @@ TARGETS = high_and_low \
 	is_valid_ISBN_10 \
 	scramble \
 	alphabet_position \
-	sum_number_strings
+	sum_number_strings \
+	range_extraction
 
 .PHONY: all clean reformat run vrun
 
