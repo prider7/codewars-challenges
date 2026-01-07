@@ -2,31 +2,34 @@ CC = gcc
 CFLAGS = -std=c18 -Wall -Wextra -O0 -g
 LDLIBS = -lm
 
-TARGETS = high_and_low \
-	get_count \
+TARGETS = \
+	alphabet_position \
 	bonus_time \
-	is_ordered \
-	get_the_vowels \
-	is_anagram \
 	count_codepoints \
-	strclr \
-	is_valid_ip \
-	longest \
-	order_words \
 	decode_roman \
 	find_date \
-	run_length_encoding \
-	letters_to_numbers \
-	rotate \
-	roman_num_encoder \
-	human_readable_time \
 	format_duration \
+	get_count \
+	get_the_vowels \
+	high_and_low \
+	human_readable_time \
+	is_anagram \
+	is_ordered \
+	is_valid_ip \
 	is_valid_ISBN_10 \
-	scramble \
-	alphabet_position \
-	sum_number_strings \
+	letters_to_numbers \
+	longest \
+	order_words \
 	range_extraction \
-	roman_num_helper
+	rational_arithmetic \
+	roman_num_encoder \
+	roman_num_helper \
+	rotate \
+	run_length_encoding \
+	scramble \
+	strclr \
+	sum_number_strings
+
 
 .PHONY: all clean reformat run vrun
 
