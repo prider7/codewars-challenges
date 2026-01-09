@@ -27,9 +27,9 @@ TARGETS = \
 	rotate \
 	run_length_encoding \
 	scramble \
+	skyscrapers_4x4_puzzle \
 	strclr \
 	sum_number_strings
-
 
 .PHONY: all clean reformat run vrun
 
