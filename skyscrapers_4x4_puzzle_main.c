@@ -30,7 +30,7 @@ static void do_test(int testno, int clues[16], int expected[4][4]) {
 }
 
 int main(void) {
-  do_test(2, clues[1], outcomes[1]);
   do_test(1, clues[0], outcomes[0]);
+  do_test(2, clues[1], outcomes[1]);
   return 0;
 }

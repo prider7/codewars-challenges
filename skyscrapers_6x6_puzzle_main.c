@@ -27,11 +27,11 @@ int outcomes[][6][6] = {{{2, 1, 4, 3, 5, 6},
                          {1, 2, 5, 6, 4, 3},
                          {3, 4, 2, 5, 1, 6}}};
 
-static void do_test(int testno, int clues[16], int expected[6][6]) {
+static void do_test(int testno, int clues[24], int expected[6][6]) {
   int** puzzle = SolvePuzzle(clues);
   int count = 0;
   for (int i = 0; i < 6; i++) {
-    if (memcmp(puzzle[i], expected[i], 4 * sizeof(int)))
+    if (memcmp(puzzle[i], expected[i], 6 * sizeof(int)))
       count++;
     free(puzzle[i]);
   }
@@ -40,7 +40,7 @@ static void do_test(int testno, int clues[16], int expected[6][6]) {
 }
 
 int main(void) {
-  do_test(2, clues[1], outcomes[1]);
   do_test(1, clues[0], outcomes[0]);
+  do_test(2, clues[1], outcomes[1]);
   return 0;
 }
