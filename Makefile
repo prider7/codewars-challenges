@@ -32,6 +32,7 @@ TARGETS = \
 	run_length_encoding \
 	scramble \
 	skyscrapers_4x4_puzzle \
+	skyscrapers_6x6_puzzle \
 	strclr \
 	sum_number_strings
 

@@ -76,7 +76,7 @@ static int solution_found(void) {
         count++;
     }
   }
-  return (count == CLUESIZE ? 1 : 0);
+  return (count == SIZE * SIZE ? 1 : 0);
 }
 
 static void print_matrix(const int cluerow, const int iter) {
