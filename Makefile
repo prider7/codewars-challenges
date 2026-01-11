@@ -3,6 +3,7 @@ CFLAGS = -std=c18 -Wall -Wextra -O0 -g
 LDLIBS = -lm
 
 TARGETS = \
+	adding_big_numbers \
 	alphabet_position \
 	array_exchange \
 	bonus_time \
