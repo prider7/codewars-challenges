@@ -26,6 +26,7 @@ TARGETS = \
 	letters_to_numbers \
 	longest \
 	multply_number_strings \
+	number_proper_fractions \
 	order_words \
 	range_extraction \
 	rational_arithmetic \
