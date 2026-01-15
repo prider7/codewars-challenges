@@ -30,6 +30,7 @@ TARGETS = \
 	multply_number_strings \
 	number_proper_fractions \
 	order_words \
+	parseint-reloaded \
 	range_extraction \
 	rational_arithmetic \
 	roman_num_encoder \
