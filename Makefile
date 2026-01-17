@@ -7,6 +7,7 @@ TARGETS = \
 	alphabet_position \
 	array_exchange \
 	bonus_time \
+	categorize_new_member \
 	count_codepoints \
 	decode_morse \
 	decode_roman \
