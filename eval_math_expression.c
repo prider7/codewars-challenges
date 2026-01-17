@@ -123,6 +123,8 @@ double calculate(const char* expression) {
   if (DEBUG)
     printf("Expression: %s\n", expression);
   // Convert expression to RPN into rpn_entries
+  // Shunting yard algorithm
+  // See: https://en.wikipedia.org/wiki/Shunting_yard_algorithm
   rpn_entries.count = 0;
   rpn_op_stack.count = 0;
   bool nonum = false;
@@ -261,7 +263,9 @@ double calculate(const char* expression) {
   if (DEBUG) {
     printf("End of Parsing\n");
   }
-  // Execute rpn_entries in rpn_stack and calculate result
+  // Execute rpn_entries in rpn_stack in Reverse Polish notation
+  // and calculate result
+  // See: https://en.wikipedia.org/wiki/Reverse_Polish_notation
   if (DEBUG) {
     for (int i = 0; i < rpn_entries.count; i++) {
       if (rpn_entries.entries[i].type == VAL)

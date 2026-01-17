@@ -10,6 +10,7 @@ TARGETS = \
 	count_codepoints \
 	decode_morse \
 	decode_roman \
+	divide_number_strings \
 	eval_math_expression \
 	evaporator \
 	find_date \
